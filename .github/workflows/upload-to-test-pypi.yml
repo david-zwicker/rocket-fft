@@ -47,7 +47,7 @@ jobs:
         uses: docker/setup-qemu-action@v3
         with:
           platforms: all
-          
+
       - uses: actions/setup-python@v2
 
       - name: Install cibuildwheel
